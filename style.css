@@ -3,10 +3,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("https://3kie2h2bv1982onocv7b5lbz-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/The-Best-Electronic-Drum-Sets-Available.jpg");
+  background-size: cover;
 }
 
 #drum-machine {
-  border: 3px solid red;
   width: 90%;
   height: 40%;
   display: flex;
@@ -22,15 +23,46 @@ body {
   align-items: center;
 }
 
+.drum-pad,
 #display {
-  width: 40%;
-  border: 2px solid grey;
-  margin: 10px;
+  border: 4px solid gainsboro;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: gainsboro;
 }
 
 .drum-pad {
-  border: 2px solid grey;
   width: 20%;
   padding: 40px 20px;
   text-align: center;
+  line-height: 50%;
+  font-size: 1.8rem;
+}
+
+#display {
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display p {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .drum-pad {
+    width: 5%;
+    height: 0.5%;
+    font-size: 1rem;
+  }
+
+  #display p {
+    font-size: 2rem;
+  }
+}
+
+.played {
+  border: 4px solid rgb(216, 172, 42);
+  background-color: rgba(231, 198, 87, 0.4);
 }
