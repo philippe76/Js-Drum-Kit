@@ -1,6 +1,6 @@
 ## JavaScript Drum-Machine
 
-#### A Front-End Project from **FreeCodeCamp** &nbsp; <img src="freeCodeCamp.png" width="30px" />
+#### A Front-End Project from **FreeCodeCamp** &nbsp; <img src="https://www.pngkey.com/png/detail/303-3036579_free-code-camp-logo-transparent.png" width="30px" />
 
 <br />
 
