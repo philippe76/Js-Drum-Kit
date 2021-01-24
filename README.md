@@ -1,6 +1,6 @@
 ## JavaScript Drum-Machine
 
-#### A Front-End Project from <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.png" width="150px" />
+#### A Front-End Project from &ensp; &ensp; &ensp; &ensp; <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.png" width="150px" />
 
 <br />
 
